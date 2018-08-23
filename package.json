@@ -28,7 +28,7 @@
     "postinstall": "tsc",
     "prepublish": "tsc",
     "test": "node build/test/all.js | faucet",
-    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
+    "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
     "start": "echo 'Please download the eve-starter repository to begin using Eve <https://github.com/witheve/eve-starter>.'"
   },
   "dependencies": {
